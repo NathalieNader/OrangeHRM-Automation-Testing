@@ -41,6 +41,40 @@ OrangeHRM Demo Application
 | GitHub | Repository Hosting |
 
 ---
+# Project Structure
+
+```text
+OrangeHRM
+│
+├── .mvn
+├── allure-results
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── Base
+│   │   │   ├── Utils
+│   │   │   ├── DashBoardPage.java
+│   │   │   ├── LoginPage.java
+│   │   │   └── PIMPage.java
+│   │   │
+│   │   └── resources
+│   │
+│   └── test
+│       └── java
+│           ├── TestData
+│           │   └── Data.json
+│           │
+│           ├── LoginTest.java
+│           ├── DashBoard.java
+│           └── PIM.java
+│
+├── pom.xml
+├── testng.xml
+└── README.md
+```
+
+---
 
 # Framework Design
 
